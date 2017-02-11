@@ -3,72 +3,123 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
     
         <title> Iprotec Go! - tu seguridad primero </title>
    
     </head>
     <body>
-      <header id="header">
-       <figure>
-           <img src="images/iprotec-go.png" alt="logo" width="186" height="60">
-       </figure>
-       <nav>
-          <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-             <li>
-                 <a href="#kits">Nuestros Kits</a>
-             </li>
-             <li>
-                 <a href="precios.html">Precios</a>
-             </li>
-              
-           
-           </ul>
-       </nav>
-       </header>
-       <section id="portada">
-           <h1>Cámaras de seguridad</h1>
-           <h3>Seguridad en tu hogar, oficina o negocio</h3>
-           <button>Conoce más</button>
+     
+       <section id="portada" class="portada ">
+         <header id="header" class="header contenedor">
+               <figure class="logo">
+                   <img src="images/iprotec-go.png" alt="logo" width="186" height="60">
+               </figure>
+               <nav class="menu">
+                  <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                     <li>
+                         <a href="#camaras">Nuestros Kits</a>
+                     </li>
+                     <li>
+                         <a href="precios.html">Precios</a>
+                     </li>
+
+
+                   </ul>
+               </nav>
+          </header>
+          <div class="contenedor">
+               <h1 class="titulo">Cámaras de seguridad</h1>
+               <h3 class="titulo-a">Seguridad en tu hogar, oficina o negocio</h3>
+               <button class="boton">Conoce más</button>
+           </div>
        </section>
-       <section id = "kits">
+       <section id = "camaras" class="camaras contenedor">
            <h2>Nuestros Kits</h2>
-           <article>
-               <img src="images/kit-4CAM.png" alt=" kit 4 cámaras" width="200">
-               <h3>Kit 4CAN - HIKVISION</h3>
-               <ol>
-                   <li>1 DVR TURBO HD MARCA HIKVISION</li>
-                   <li>2 cámaras tipo DOMO TURBO HD</li>
-                   <li>2 cámaras tipo TUBO TURBO HD</li>
-                   <li>4 pares VIDEOBALUM</li>
-                   <li>4 pares de conectores de energía</li>
-                   <li>4 rollos DE 20M cable UTP CAT 5E</li>
-                   <li>4 fuentes de energía</li>
-                   <li>1 disco duro 1TB</li>>
-               </ol>
+           <article class="camara">
+               <img class="derecha" src="images/kit-4CAM.png" alt=" kit 4 cámaras" width="350">
+               <div class="contenedor-camara-a">
+               <h3 class="titulo-b">Kit 4CAN - HIKVISION</h3>
+                   <ol>
+                       <li>1 DVR TURBO HD MARCA HIKVISION</li>
+                       <li>2 cámaras tipo DOMO TURBO HD</li>
+                       <li>2 cámaras tipo TUBO TURBO HD</li>
+                       <li>4 pares VIDEOBALUM</li>
+                       <li>4 pares de conectores de energía</li>
+                       <li>4 rollos DE 20M cable UTP CAT 5E</li>
+                       <li>4 fuentes de energía</li>
+                       <li>1 disco duro 1TB</li>
+                   </ol>
+               </div>
                
            </article>
-           <article>
-               <img src="images/kit-8CAM.png" alt="kit 8 cámaras" width="200">
-               <h3>Kit 8 CAM - HIKVISION</h3>
-               <ol>
-                   <li>1 DVR TURBO HD MARCA HIKVISION</li>
-                   <li>4 cámaras tipo DOMO TURBO HD</li>
-                   <li>4 cámaras tipo TUBO TURBO HD</li>
-                   <li>8 pares VIDEOBALUM</li>
-                   <li>8 pares de conectores de energía</li>
-                   <li>8 rollos DE 20M cable UTP CAT 5E</li>
-                   <li>8 fuentes de energía</li>
-                   <li>1 disco duro 1TB</li>
-               </ol>
+           <article class="camara">
+               <img class="izquierda" src="images/kit-8CAM.png" alt="kit 8 cámaras" width="350">
+               <div class="contenedor-camara-b">
+                   <h3 class="titulo-b">Kit 8 CAM - HIKVISION</h3>
+                   <ol>
+                       <li>1 DVR TURBO HD MARCA HIKVISION</li>
+                       <li>4 cámaras tipo DOMO TURBO HD</li>
+                       <li>4 cámaras tipo TUBO TURBO HD</li>
+                       <li>8 pares VIDEOBALUM</li>
+                       <li>8 pares de conectores de energía</li>
+                       <li>8 rollos DE 20M cable UTP CAT 5E</li>
+                       <li>8 fuentes de energía</li>
+                       <li>1 disco duro 1TB</li>
+                   </ol>
+               </div>
            </article>
        </section>
         
 
     </body>
-    <footer>
-        
+    <footer class="footer">
+       <div class="contenedor">
+            <div class="contacto">
+               <img src="images/iprotec-go-white.png" alt="">
+               <a href="tel:+51986900646"> <strong>Teléfono</strong><span>986 900 646</span> </a>
+               <a href=""><strong>E-mail:</strong><span>info@iprotecgo.com</span></a>
+            </div>
+            <div class="formulario">
+               <div class="col1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" required name="nombre">
+                    <label for="email">E-mail</label>
+                    <input type="email" required id="email" name="email">
+                    <div class="genero">
+                        <label for="mujer">
+                            <input type="radio" id="mujer" checked name="genero" value="nujer"> mujer
+                        </label>
+                        <label for="hombre">
+                            <input type="radio" id="hombre" name="genero" value="hombre"> hombre
+                        </label>
+                    </div>
+                    <div class="intereses">
+                       <label for="cotizacion">
+                           <input type="checkbox" id="cotizacion" checked name="intereses" value="cotizacion">Cotización
+                       </label>
+                       <label for="reclamos">
+                           <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+                       </label>
+                       <label for="comentarios">
+                           <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+                       </label>
+                       <label for="otros">
+                           <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+                       </label>
+
+                    </div>
+                </div>
+                <div class="col2" >
+                    <label for="mensaje">Comentarios</label>
+                    <textarea name="mensaje" id="mensaje" cols="27" rows="10"></textarea>
+                    <input type="submit" class="boton" value="Enviar">
+                </div>
+
+            </div>
+        </div>
     </footer>
 </html>
